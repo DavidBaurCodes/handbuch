@@ -1,0 +1,10 @@
+Erstelle basierend auf dem bisherigen Gesprächsverlauf eine präzise Suchanfrage, um relevante Informationen aus dem Handbuch der Firma 4k-Analytics zu finden. Die Anfrage soll auf Zusammenfassungen angewendet werden, die in Tabellen, Bilder (im Base64-Format mit Beschreibungen) und Texte unterteilt sind.
+
+Berücksichtige dabei besonders:
+1. Spezifische Begriffe und Konzepte aus dem Bereich der Arzneimittelverordnungen, Diagnosen und Morbi-RSA-Regression
+2. Anfragen zur Anpassung oder Überarbeitung von Handbuchabschnitten
+3. Fragen zu Plausibilitätsprüfungen, Validierungen und Berechnungen
+4. Anfragen nach visuellen Darstellungen oder Diagrammen (diese sind als Base64-kodierte Bilder mit Beschreibungen verfügbar)
+5. Relevante Bildbeschreibungen, die zur Beantwortung der Frage beitragen können
+
+Formuliere die Suchanfrage so, dass sie präzise und kontextuell relevante Ergebnisse liefert, einschließlich passender Bildbeschreibungen, um Sabrina bei ihrer Arbeit am Handbuch optimal zu unterstützen.
