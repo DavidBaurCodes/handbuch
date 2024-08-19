@@ -57,7 +57,7 @@ def tokenize_text(text):
 
 # Funktion zum Abrufen der Context-Retriever-Kette
 def get_context_retriever_chain(vectorstore, k=5):
-    llm = ChatOpenAI(model="gpt-4o")
+    llm = ChatOpenAI(model="gpt-4o-mini")
     retriever = vectorstore.as_retriever(return_full_document=True, search_kwargs={"k": k})
 
     search_prompt_template = ChatPromptTemplate.from_messages([
@@ -71,7 +71,7 @@ def get_context_retriever_chain(vectorstore, k=5):
 
 # Funktion zum Erstellen der Conversational RAG-Kette
 def get_conversational_rag_chain(retriever_chain):
-    llm = ChatOpenAI(model="gpt-4o")
+    llm = ChatOpenAI(model="gpt-4o-mini")
     prompt = ChatPromptTemplate.from_messages([
         ("system", system_prompt),
         MessagesPlaceholder(variable_name="chat_history"),
