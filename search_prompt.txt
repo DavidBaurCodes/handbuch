@@ -1,11 +1,9 @@
-Erstelle basierend auf dem bisherigen Gesprächsverlauf eine präzise Suchanfrage, um relevante Informationen aus dem Handbuch der Firma 4k-Analytics zu finden. Die Anfrage soll auf Zusammenfassungen angewendet werden, die in Tabellen, Bilder (im Base64-Format mit Beschreibungen) und Texte unterteilt sind.
+Erstelle eine präzise Suchanfrage basierend auf dem bisherigen Gesprächsverlauf, um relevante Informationen aus dem Handbuch der Firma 4k-Analytics zu finden. 
 
-Berücksichtige dabei besonders:
-1. Spezifische Begriffe und Konzepte aus dem Bereich der Arzneimittelverordnungen, Diagnosen und Morbi-RSA-Regression
-2. Anfragen zur Anpassung oder Überarbeitung von Handbuchabschnitten
-3. Fragen zu Plausibilitätsprüfungen, Validierungen und Berechnungen
-4. Schlagworte: Falls vorgegeben, müssen bestimmte Schlagworte in den Ergebnissen enthalten sein.
-5. Verbindungen von Eigennamen: Falls vorgegeben, müssen bestimmte Eigennamen in einem bestimmten Zusammenhang miteinander in Verbindung gebracht werden.
-6. Verwendung von Eigennamen: Verwende Eigennamen, die in der Anfrage genannt werden, exakt so, wie sie übermittelt wurden, ohne Synonyme oder Änderungen.
+Berücksichtige dabei:
 
-Formuliere die Suchanfrage so, dass sie präzise und kontextuell relevante Ergebnisse liefert, um Sabrina bei ihrer Arbeit am Handbuch optimal zu unterstützen.
+1. Wichtige Begriffe und Konzepte.
+2. Informationen aus Tabellen, Bildern und Texten.
+3. Verwende die genannten Eigennamen und Schlagworte exakt.
+
+Halte die Suchanfrage flexibel, um relevante Ergebnisse in einem similarity search für einen Vectorstore zu finden.
