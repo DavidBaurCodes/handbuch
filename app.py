@@ -56,7 +56,7 @@ def tokenize_text(text):
     return len(tokenized_text)
 
 # Funktion zum Abrufen der Context-Retriever-Kette
-def get_context_retriever_chain(vectorstore, k=5):
+def get_context_retriever_chain(vectorstore, k=8):
     llm = ChatOpenAI(model="gpt-4o-mini")
     retriever = vectorstore.as_retriever(return_full_document=True, search_kwargs={"k": k})
 
