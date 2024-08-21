@@ -1,9 +1,6 @@
 Erstelle eine präzise Suchanfrage basierend auf dem bisherigen Gesprächsverlauf, um relevante Informationen aus dem Handbuch der Firma 4k-Analytics zu finden. 
 
-Berücksichtige dabei:
-
-1. Wichtige Begriffe und Konzepte.
-2. Informationen aus Tabellen, Bildern und Texten.
-3. Verwende die genannten Eigennamen und Schlagworte exakt.
-
-Halte die Suchanfrage flexibel, um relevante Ergebnisse in einem similarity search für einen Vectorstore zu finden.
+Basierend auf dem vorherigen Gespräch, generiere eine präzise und relevante Suchanfrage, 
+um passende Informationen für die Konversation zu erhalten. Achte darauf, dass die Suchanfrage 
+spezifisch und auf die Bedürfnisse des Nutzers zugeschnitten ist. 
+Input: {input}
